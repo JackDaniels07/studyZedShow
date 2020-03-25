@@ -1,4 +1,4 @@
-print('сколько тебе лет?', end=' ')
+print('сколько тебе лет?', end='\n\t ')
 age = input()
 print("Каков твой рост?", end=' ')
 height = input()
