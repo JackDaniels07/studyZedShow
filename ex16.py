@@ -2,10 +2,8 @@ from sys import argv
 
 script, filename = argv
 
-print(f"Я собираюсь стереть файл {filename}.")
-print("если вы не хотите стирать его, нажмите CTRL+C (^C).")
+print(f"Я собираюсь стереть файл {filename}.")rint("если вы не хотите стирать его, нажмите CTRL+C (^C).")
 print("Если хотите стереть файл, нажмите клавишу Enter.")
-
 input("?")
 
 print("Щткрытие файла...")
