@@ -18,5 +18,5 @@ print("Давайте кое что сделаем с нашим объекто�
 print(stuff[1])
 print(stuff[-1])
 print(stuff.pop())
-print(' '.join(stuff))
+print('\n'.join(stuff))
 print('#'.join(stuff[3:5]))
