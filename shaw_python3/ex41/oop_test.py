@@ -76,9 +76,9 @@ try:
             if PHRASE_FIRST:
                 question, answer = answer, question
 
-            print question
+            print (question)
 
-            raw_input("> ")
-            print u"ОТВЕТ:  %s\n\n" % answer
+            input("> ")
+            print (u"ОТВЕТ:  %s\n\n" % answer)
 except EOFError:
-    print u"\nПока"
+    print (u"\nПока")
